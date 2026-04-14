@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Menghilangkan warning Node.js 20
 
     steps:
       - name: Checkout repository
@@ -33,3 +35,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          # Coba paksa koneksi aman (ftps) karena beberapa cPanel memutus FTP biasa
+          protocol: ftps
+          # Jika ftps masih gagal, kamu bisa komentari (# protocol: ftps) 
+          # dan coba port: 21 atau ftps-legacy
