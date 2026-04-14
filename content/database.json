@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "schoolName": "MA Pesantren Terpadu Al-Fauzan",
+    "projectTitle": "Agro-Edu Hub Al-Fauzan",
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-12",
+    "description": "Platform edukasi pertanian digital untuk siswa MA Pesantren Terpadu Al-Fauzan"
+  },
+  "islamicQuotes": [
+    {
+      "id": 1,
+      "arabic": "إِنَّ اللَّهَ طَيِّبٌ لَا يَقْبَلُ إِلَّا طَيِّبًا",
+      "translation": "Sesungguhnya Allah itu baik dan tidak menerima kecuali yang baik.",
+      "source": "HR. Muslim no. 1015"
+    },
+    {
+      "id": 2,
+      "arabic": "مَا مِنْ مُسْلِمٍ يَغْرِسُ غَرْسًا إِلَّا كَانَ مَا أُكِلَ مِنْهُ لَهُ صَدَقَةً",
+      "translation": "Tidaklah seorang muslim menanam tanaman, lalu dimakan darinya, melainkan menjadi sedekah baginya.",
+      "source": "HR. Bukhari no. 2320"
+    },
+    {
+      "id": 3,
+      "arabic": "إِنْ قَامَتِ السَّاعَةُ وَفِي يَدِ أَحَدِكُمْ فَسِيلَةٌ فَلْيَغْرِسْهَا",
+      "translation": "Jika hari kiamat tiba dan di tangan salah satu dari kalian ada bibit tanaman, maka tanamlah.",
+      "source": "HR. Ahmad no. 12981"
+    },
+    {
+      "id": 4,
+      "arabic": "كُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا",
+      "translation": "Makan dan minumlah, dan janganlah berlebih-lebihan.",
+      "source": "QS. Al-A'raf: 31"
+    },
+    {
+      "id": 5,
+      "arabic": "وَهُوَ الَّذِي أَنشَأَ جَنَّاتٍ مَّعْرُوشَاتٍ وَغَيْرَ مَعْرُوشَاتٍ",
+      "translation": "Dan Dialah yang menjadikan kebun-kebun yang berjunjung dan yang tidak berjunjung.",
+      "source": "QS. Al-An'am: 141"
+    },
+    {
+      "id": 6,
+      "arabic": "أَفَرَأَيْتُم مَّا تَحْرُثُونَ أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ",
+      "translation": "Pernahkah kamu memperhatikan benih yang kamu tanam? Kamukah yang menumbuhkannya ataukah Kami yang menumbuhkannya?",
+      "source": "QS. Al-Waqi'ah: 63-64"
+    },
+    {
+      "id": 7,
+      "arabic": "وَالْأَرْضَ مَدَدْنَاهَا وَأَلْقَيْنَا فِيهَا رَوَاسِيَ وَأَنبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ بَهِيجٍ",
+      "translation": "Dan Kami hamparkan bumi dan Kami pancangkan padanya gunung-gunung serta Kami tumbuhkan di sana segala sesuatu yang indah dipandang mata.",
+      "source": "QS. Qaf: 7"
+    }
+  ],
+  "katalog": [
+    {
+      "id": "mat-001",
+      "slug": "pengenalan-hidroponik",
+      "title": "Pengenalan Sistem Hidroponik",
+      "category": "hidroponik",
+      "level": "dasar",
+      "description": "Pelajari dasar-dasar pertanian hidroponik, mulai dari pengertian hingga jenis-jenis sistem yang umum digunakan di Indonesia.",
+      "content": "Hidroponik adalah metode bercocok tanam tanpa menggunakan media tanah, melainkan memanfaatkan air yang mengandung larutan nutrisi. Kata hidroponik berasal dari bahasa Yunani: hydro (air) dan ponos (kerja).\n\n## Kelebihan Hidroponik\n- Tidak memerlukan lahan yang luas\n- Hasil panen lebih bersih dan higienis\n- Pertumbuhan tanaman lebih cepat\n- Penggunaan air lebih efisien\n- Bisa dilakukan di mana saja\n\n## Jenis Sistem Hidroponik\n1. **NFT (Nutrient Film Technique)** — Larutan nutrisi dialirkan tipis di dasar talang\n2. **DFT (Deep Flow Technique)** — Akar terendam dalam larutan nutrisi\n3. **Wick System** — Menggunakan sumbu sebagai penyalur nutrisi\n4. **Drip System** — Nutrisi diteteskan langsung ke media tanam\n5. **Aeroponik** — Akar disemprot dengan kabut nutrisi\n6. **Rakit Apung** — Tanaman mengapung di atas larutan nutrisi",
+      "icon": "Droplets",
+      "estimatedTime": "15 menit",
+      "keyPoints": [
+        "Hidroponik = bertanam tanpa tanah",
+        "Lebih hemat air dibanding pertanian konvensional",
+        "Cocok untuk lahan terbatas di pesantren",
+        "Ada 6 jenis sistem utama"
+      ]
+    },
+    {
+      "id": "mat-002",
+      "slug": "nutrisi-ab-mix",
+      "title": "Nutrisi AB Mix untuk Hidroponik",
+      "category": "hidroponik",
+      "level": "menengah",
+      "description": "Memahami komposisi, cara membuat, dan penggunaan nutrisi AB Mix yang merupakan kunci keberhasilan pertanian hidroponik.",
+      "content": "AB Mix adalah larutan nutrisi dua komponen yang menyediakan semua unsur hara yang dibutuhkan tanaman hidroponik.\n\n## Komponen Stok A\n- Kalsium Nitrat (Ca(NO₃)₂)\n- Kalium Nitrat (KNO₃)\n- Fe-EDTA (Zat Besi)\n\n## Komponen Stok B\n- Kalium Dihidrogen Fosfat (KH₂PO₄)\n- Magnesium Sulfat (MgSO₄)\n- Mangan Sulfat (MnSO₄)\n- Tembaga Sulfat (CuSO₄)\n- Asam Borat (H₃BO₃)\n\n## Cara Penggunaan\n1. Larutkan Stok A dan Stok B secara terpisah\n2. Jangan pernah mencampur A dan B dalam bentuk pekat\n3. Ukur EC/PPM sesuai kebutuhan tanaman\n4. Periksa pH larutan (ideal: 5.5-6.5)\n5. Ganti larutan setiap 1-2 minggu",
+      "icon": "FlaskConical",
+      "estimatedTime": "20 menit",
+      "keyPoints": [
+        "AB Mix terdiri dari 2 komponen terpisah",
+        "Stok A dan B tidak boleh dicampur langsung",
+        "PPM disesuaikan dengan jenis tanaman",
+        "pH ideal: 5.5-6.5"
+      ]
+    },
+    {
+      "id": "mat-003",
+      "slug": "media-tanam-hidroponik",
+      "title": "Media Tanam Hidroponik",
+      "category": "hidroponik",
+      "level": "dasar",
+      "description": "Mengenal berbagai jenis media tanam yang digunakan dalam sistem hidroponik beserta kelebihan dan kekurangannya.",
+      "content": "Media tanam hidroponik berfungsi sebagai penopang akar tanaman dan menjaga kelembapan di sekitar zona perakaran.\n\n## Jenis Media Tanam\n\n### 1. Rockwool\n- Terbuat dari serat batu vulkanik\n- Sangat baik menahan air dan nutrisi\n- Ideal untuk pembibitan\n\n### 2. Hidroton (Clay Pebbles)\n- Butiran tanah liat yang dipanaskan\n- Drainase sangat baik\n- Bisa digunakan berulang kali\n\n### 3. Cocopeat\n- Serbuk sabut kelapa\n- Ramah lingkungan\n- pH netral\n\n### 4. Perlite\n- Mineral vulkanik yang diekspansi\n- Sangat ringan\n- Aerasi baik\n\n### 5. Arang Sekam\n- Dari sekam padi yang dibakar\n- Mudah didapat di Indonesia\n- Harga terjangkau",
+      "icon": "Layers",
+      "estimatedTime": "12 menit",
+      "keyPoints": [
+        "Media tanam menopang akar, bukan sumber nutrisi",
+        "Rockwool terbaik untuk pembibitan",
+        "Arang sekam paling mudah didapat di Indonesia",
+        "Pilih media sesuai sistem hidroponik"
+      ]
+    },
+    {
+      "id": "mat-004",
+      "slug": "pengolahan-tanah",
+      "title": "Teknik Pengolahan Tanah",
+      "category": "tanah",
+      "level": "dasar",
+      "description": "Pelajari teknik dasar pengolahan tanah yang benar untuk menghasilkan media tanam yang subur dan produktif.",
+      "content": "Pengolahan tanah adalah langkah pertama dan paling penting dalam pertanian konvensional. Tanah yang diolah dengan baik akan menghasilkan panen yang optimal.\n\n## Tujuan Pengolahan Tanah\n- Menggemburkan struktur tanah\n- Meningkatkan aerasi dan drainase\n- Mencampur bahan organik\n- Mengendalikan gulma\n\n## Langkah Pengolahan\n1. **Pembersihan lahan** — Bersihkan gulma dan sisa tanaman\n2. **Pembajakan** — Balik tanah sedalam 20-30 cm\n3. **Penghalusan** — Hancurkan bongkahan tanah besar\n4. **Pemupukan dasar** — Tambahkan kompos atau pupuk kandang\n5. **Pembuatan bedengan** — Buat guludan sesuai kebutuhan\n6. **Pengairan awal** — Siram tanah hingga lembap merata",
+      "icon": "Mountain",
+      "estimatedTime": "15 menit",
+      "keyPoints": [
+        "Pengolahan tanah menentukan keberhasilan tanam",
+        "Kedalaman olah ideal: 20-30 cm",
+        "Selalu tambahkan bahan organik",
+        "Buat bedengan untuk drainage optimal"
+      ]
+    },
+    {
+      "id": "mat-005",
+      "slug": "jenis-tanah-pertanian",
+      "title": "Jenis-Jenis Tanah Pertanian",
+      "category": "tanah",
+      "level": "dasar",
+      "description": "Mengenal berbagai jenis tanah di Indonesia dan karakteristiknya untuk pemilihan tanaman yang tepat.",
+      "content": "Indonesia memiliki beragam jenis tanah yang dipengaruhi oleh iklim, topografi, dan aktivitas geologis.\n\n## Jenis Tanah Utama\n\n### 1. Tanah Aluvial\n- Berasal dari endapan sungai\n- Sangat subur, kaya mineral\n- Cocok untuk padi dan sayuran\n\n### 2. Tanah Andosol (Vulkanis)\n- Berasal dari abu vulkanik\n- Gembur dan kaya unsur hara\n- Ideal untuk hortikultura\n\n### 3. Tanah Latosol\n- Tanah merah kekuningan\n- Curah hujan tinggi\n- Cocok untuk palawija dan perkebunan\n\n### 4. Tanah Regosol\n- Tanah pasir vulkanik\n- Drainase sangat cepat\n- Perlu pengayaan organik\n\n### 5. Tanah Grumusol\n- Tanah liat hitam\n- Retak saat kering\n- Cocok untuk padi dan tebu",
+      "icon": "Gem",
+      "estimatedTime": "18 menit",
+      "keyPoints": [
+        "Indonesia punya 5+ jenis tanah utama",
+        "Tanah vulkanis paling subur",
+        "Pemilihan tanaman harus sesuai jenis tanah",
+        "Pengayaan organik bisa memperbaiki semua jenis tanah"
+      ]
+    },
+    {
+      "id": "mat-006",
+      "slug": "pupuk-organik",
+      "title": "Pembuatan Pupuk Organik",
+      "category": "organik",
+      "level": "menengah",
+      "description": "Panduan lengkap membuat pupuk organik dari bahan-bahan yang mudah ditemukan di lingkungan pesantren.",
+      "content": "Pupuk organik adalah pupuk yang berasal dari sisa makhluk hidup yang telah mengalami dekomposisi.\n\n## Jenis Pupuk Organik\n\n### 1. Kompos\n- Dari sampah organik dapur dan kebun\n- Proses: 2-3 bulan\n- Kaya nitrogen dan karbon\n\n### 2. Pupuk Kandang\n- Dari kotoran hewan ternak\n- Harus difermentasi dahulu\n- Sumber nitrogen tinggi\n\n### 3. Pupuk Hijau\n- Dari tanaman yang dibenamkan ke tanah\n- Contoh: kacang-kacangan, orok-orok\n- Menambah nitrogen alami\n\n### 4. Bokashi\n- Fermentasi dengan EM4\n- Proses lebih cepat: 2-3 minggu\n- Bisa dari berbagai bahan organik\n\n## Cara Membuat Kompos Sederhana\n1. Kumpulkan sampah organik (daun, sisa makanan)\n2. Cacah menjadi potongan kecil\n3. Tambahkan aktivator (EM4 atau air gula)\n4. Tutup rapat, aduk setiap 3 hari\n5. Siap dalam 4-8 minggu",
+      "icon": "Leaf",
+      "estimatedTime": "20 menit",
+      "keyPoints": [
+        "Pupuk organik ramah lingkungan",
+        "Bisa dibuat dari limbah pesantren",
+        "Bokashi paling cepat prosesnya",
+        "Pupuk kandang harus difermentasi dulu"
+      ]
+    },
+    {
+      "id": "mat-007",
+      "slug": "pertanian-organik-berkelanjutan",
+      "title": "Pertanian Organik Berkelanjutan",
+      "category": "organik",
+      "level": "lanjutan",
+      "description": "Konsep pertanian organik yang berkelanjutan sesuai prinsip Islam dalam menjaga kelestarian lingkungan.",
+      "content": "Pertanian organik berkelanjutan adalah sistem pertanian yang menjaga keseimbangan ekosistem tanpa menggunakan bahan kimia sintetis.\n\n## Prinsip Pertanian Berkelanjutan\n1. **Menjaga kesuburan tanah** — Rotasi tanaman dan pengomposan\n2. **Konservasi air** — Mulsa dan irigasi tetes\n3. **Biodiversitas** — Tumpangsari dan polykultur\n4. **Zero waste** — Semua limbah didaur ulang\n\n## Perspektif Islam\n- Konsep khalifah fil ardh (pemelihara bumi)\n- Larangan israf (pemborosan) dalam pertanian\n- Ihya al-mawat (menghidupkan lahan mati)\n- Menjaga keseimbangan ekosistem sebagai ibadah\n\n## Implementasi di Pesantren\n- Kebun edukasi sebagai laboratorium alam\n- Pengelolaan sampah organik terpadu\n- Bank benih lokal\n- Produk organik untuk dapur pesantren",
+      "icon": "TreePine",
+      "estimatedTime": "25 menit",
+      "keyPoints": [
+        "Pertanian berkelanjutan = menjaga bumi",
+        "Selaras dengan nilai-nilai Islam",
+        "Pesantren bisa jadi model pertanian organik",
+        "Semua limbah organik bisa didaur ulang"
+      ]
+    },
+    {
+      "id": "mat-008",
+      "slug": "pengendalian-hama-terpadu",
+      "title": "Pengendalian Hama Terpadu (PHT)",
+      "category": "hama",
+      "level": "menengah",
+      "description": "Strategi pengendalian hama dan penyakit tanaman secara terpadu tanpa merusak lingkungan.",
+      "content": "Pengendalian Hama Terpadu (PHT) adalah pendekatan ekologis yang menggabungkan berbagai metode pengendalian hama.\n\n## Metode PHT\n\n### 1. Pengendalian Mekanis\n- Perangkap kuning untuk kutu daun\n- Pengambilan manual ulat\n- Penggunaan jaring serangga\n\n### 2. Pengendalian Biologis\n- Predator alami (kumbang, capung)\n- Bakteri Bacillus thuringiensis (Bt)\n- Jamur Beauveria bassiana\n\n### 3. Pengendalian Kultur\n- Rotasi tanaman\n- Sanitasi lahan\n- Pengaturan waktu tanam\n\n### 4. Pestisida Nabati\n- Ekstrak daun nimba (neem)\n- Air rebusan tembakau\n- Larutan bawang putih + cabai\n\n## Hama Umum di Indonesia\n| Hama | Tanaman Target | Pengendalian |\n|------|---------------|-------------|\n| Kutu daun | Cabai, tomat | Semprotan air sabun |\n| Ulat grayak | Sawi, kubis | Bt spray |\n| Wereng | Padi | Predator alami |\n| Lalat buah | Melon, mentimun | Perangkap metil eugenol |",
+      "icon": "Bug",
+      "estimatedTime": "22 menit",
+      "keyPoints": [
+        "PHT menggabungkan 4 metode pengendalian",
+        "Utamakan pengendalian biologis dan mekanis",
+        "Pestisida nabati lebih aman dari kimia",
+        "Sanitasi lahan mencegah 70% serangan hama"
+      ]
+    },
+    {
+      "id": "mat-009",
+      "slug": "hama-penyakit-tanaman",
+      "title": "Identifikasi Hama & Penyakit Tanaman",
+      "category": "hama",
+      "level": "dasar",
+      "description": "Panduan visual untuk mengidentifikasi gejala serangan hama dan penyakit pada tanaman pertanian.",
+      "content": "Kemampuan mengidentifikasi hama dan penyakit sangat penting untuk penanganan yang tepat dan cepat.\n\n## Gejala Serangan Hama\n\n### Daun Berlubang\n- Penyebab: Ulat, belalang\n- Ciri: Lubang tidak beraturan\n- Cek bagian bawah daun\n\n### Daun Menguning\n- Penyebab: Kutu daun, virus\n- Ciri: Menguning dari tepi\n- Periksa ada tidaknya embun madu\n\n### Batang Layu\n- Penyebab: Penggerek batang\n- Ciri: Lubang kecil pada batang\n- Tanaman layu meski disiram\n\n## Gejala Penyakit\n\n### Busuk Akar\n- Jamur Fusarium/Pythium\n- Akar berwarna coklat kehitaman\n- Tanaman mudah dicabut\n\n### Bercak Daun\n- Jamur Cercospora\n- Bercak coklat melingkar\n- Menyebar saat hujan\n\n### Layu Bakteri\n- Ralstonia solanacearum\n- Layu mendadak tanpa menguning\n- Tes: potong batang, celup air",
+      "icon": "Search",
+      "estimatedTime": "18 menit",
+      "keyPoints": [
+        "Identifikasi dini kunci pengendalian efektif",
+        "Perhatikan perubahan warna dan bentuk daun",
+        "Bedakan serangan hama vs penyakit",
+        "Dokumentasikan gejala untuk konsultasi"
+      ]
+    },
+    {
+      "id": "mat-010",
+      "slug": "hidroponik-nft",
+      "title": "Sistem NFT (Nutrient Film Technique)",
+      "category": "hidroponik",
+      "level": "lanjutan",
+      "description": "Panduan lengkap membangun dan mengoperasikan sistem NFT untuk produksi sayuran hidroponik skala pesantren.",
+      "content": "NFT adalah sistem hidroponik di mana larutan nutrisi dialirkan sebagai lapisan tipis (film) di dasar talang miring.\n\n## Komponen Sistem NFT\n1. **Bak penampung** — Kapasitas 50-200 liter\n2. **Pompa air** — Submersible 25-40 watt\n3. **Talang/pipa PVC** — Diameter 3-4 inch\n4. **Net pot** — Diameter 5 cm\n5. **Timer** — Untuk sirkulasi otomatis\n\n## Spesifikasi Teknis\n- Kemiringan talang: 2-3%\n- Ketebalan film nutrisi: 1-3 mm\n- Debit air: 1-2 liter/menit per talang\n- Jarak antar net pot: 15-20 cm\n\n## Tanaman yang Cocok\n- Selada (paling recommended)\n- Kangkung\n- Bayam\n- Basil\n- Pakcoy\n\n## Langkah Pembuatan\n1. Rakit rangka dari pipa/kayu\n2. Pasang talang dengan kemiringan tepat\n3. Lubangi talang sesuai jarak net pot\n4. Hubungkan ke bak penampung\n5. Pasang pompa dan timer\n6. Tes aliran sebelum menanam",
+      "icon": "Waves",
+      "estimatedTime": "30 menit",
+      "keyPoints": [
+        "NFT paling efisien untuk sayuran daun",
+        "Kemiringan talang harus tepat 2-3%",
+        "Pompa harus menyala minimal 15 menit/jam",
+        "Selada adalah tanaman terbaik untuk pemula"
+      ]
+    },
+    {
+      "id": "mat-011",
+      "slug": "vermikomposting",
+      "title": "Vermikomposting: Kompos dari Cacing",
+      "category": "organik",
+      "level": "menengah",
+      "description": "Teknik pembuatan kompos berkualitas tinggi menggunakan cacing tanah sebagai agen dekomposisi utama.",
+      "content": "Vermikomposting adalah proses pengomposan menggunakan cacing tanah, khususnya cacing merah (Lumbricus rubellus).\n\n## Keunggulan Vermikompos\n- 5x lebih kaya nutrisi dari kompos biasa\n- Mengandung hormon pertumbuhan alami\n- Memperbaiki struktur tanah\n- Meningkatkan daya tahan tanaman\n\n## Alat dan Bahan\n- Wadah/bak bertingkat (berlubang)\n- Cacing merah (500-1000 ekor)\n- Sampah organik halus\n- Kardus/koran bekas\n- Tanah secukupnya\n\n## Langkah Pembuatan\n1. Siapkan wadah bertingkat dengan lubang drainase\n2. Lapisi dasar dengan kardus/koran basah\n3. Tambahkan campuran tanah dan kompos\n4. Masukkan cacing merah\n5. Beri makan sampah organik dicacah halus\n6. Tutup dengan karung goni basah\n7. Panen kascing setelah 2-3 bulan\n\n## Tips Perawatan\n- Jaga kelembapan 60-70%\n- Hindari bahan asam dan berminyak\n- Suhu ideal: 20-25°C\n- Beri makan secukupnya, jangan berlebihan",
+      "icon": "Sprout",
+      "estimatedTime": "20 menit",
+      "keyPoints": [
+        "Vermikompos 5x lebih kaya nutrisi",
+        "Cacing merah agen dekomposisi terbaik",
+        "Proses 2-3 bulan hingga panen",
+        "Cocok dilakukan di lingkungan pesantren"
+      ]
+    },
+    {
+      "id": "mat-012",
+      "slug": "pasca-panen-sayuran",
+      "title": "Penanganan Pasca Panen Sayuran",
+      "category": "pasca-panen",
+      "level": "menengah",
+      "description": "Teknik penanganan pasca panen yang benar untuk menjaga kualitas dan memperpanjang umur simpan sayuran.",
+      "content": "Penanganan pasca panen yang tepat dapat mengurangi kerugian hingga 40% dari total produksi.\n\n## Tahapan Pasca Panen\n\n### 1. Pemanenan yang Tepat\n- Panen pagi hari (sebelum jam 8)\n- Gunakan alat bersih dan tajam\n- Hindari memar dan luka mekanis\n\n### 2. Sortasi dan Grading\n- Pisahkan yang rusak/busuk\n- Kelompokkan berdasarkan ukuran\n- Buang bagian yang tidak layak\n\n### 3. Pencucian\n- Gunakan air bersih mengalir\n- Bisa tambahkan larutan garam encer\n- Tiriskan dengan baik\n\n### 4. Pengemasan\n- Gunakan wadah yang sesuai\n- Beri ventilasi cukup\n- Label tanggal panen\n\n### 5. Penyimpanan\n- Simpan di tempat sejuk\n- Optimal: 5-10°C\n- Pisahkan buah dan sayuran\n- Konsumsi dalam 3-7 hari",
+      "icon": "Package",
+      "estimatedTime": "15 menit",
+      "keyPoints": [
+        "Panen pagi hari = kualitas terbaik",
+        "Sortasi mengurangi kerugian 40%",
+        "Suhu simpan ideal: 5-10°C",
+        "Pisahkan buah dari sayuran saat penyimpanan"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-001",
+      "katalogId": "mat-001",
+      "title": "Kuis: Dasar-Dasar Hidroponik",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Apa arti kata 'hidroponik' secara harfiah?",
+          "options": ["Tanah subur", "Kerja air", "Cahaya matahari", "Udara segar"],
+          "correctAnswer": 1,
+          "explanation": "Hidroponik berasal dari bahasa Yunani: 'hydro' (air) dan 'ponos' (kerja), yang berarti 'kerja air'."
+        },
+        {
+          "id": 2,
+          "question": "Sistem hidroponik mana yang menggunakan sumbu sebagai penyalur nutrisi?",
+          "options": ["NFT", "DFT", "Wick System", "Aeroponik"],
+          "correctAnswer": 2,
+          "explanation": "Wick System (sistem sumbu) menggunakan sumbu kain untuk menyalurkan nutrisi dari reservoir ke media tanam secara pasif."
+        },
+        {
+          "id": 3,
+          "question": "Apa kelebihan utama pertanian hidroponik dibanding konvensional?",
+          "options": ["Lebih murah", "Tidak perlu pupuk", "Lebih hemat air", "Tidak perlu cahaya"],
+          "correctAnswer": 2,
+          "explanation": "Hidroponik menggunakan air 80-90% lebih sedikit dibanding pertanian konvensional karena air disirkulasikan dan tidak terbuang ke tanah."
+        },
+        {
+          "id": 4,
+          "question": "Pada sistem aeroponik, bagaimana nutrisi diberikan ke tanaman?",
+          "options": ["Dialirkan di talang", "Disemprotkan sebagai kabut", "Melalui sumbu kain", "Direndam di bak"],
+          "correctAnswer": 1,
+          "explanation": "Pada sistem aeroponik, akar tanaman digantung di udara dan disemprot dengan kabut nutrisi menggunakan nozzle bertekanan."
+        },
+        {
+          "id": 5,
+          "question": "Berapa banyak jenis sistem hidroponik utama yang dibahas dalam materi?",
+          "options": ["3 jenis", "4 jenis", "5 jenis", "6 jenis"],
+          "correctAnswer": 3,
+          "explanation": "Ada 6 jenis sistem hidroponik utama: NFT, DFT, Wick System, Drip System, Aeroponik, dan Rakit Apung."
+        }
+      ]
+    },
+    {
+      "id": "quiz-002",
+      "katalogId": "mat-002",
+      "title": "Kuis: Nutrisi AB Mix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Mengapa Stok A dan Stok B tidak boleh dicampur dalam bentuk pekat?",
+          "options": ["Akan meledak", "Menghasilkan endapan", "Menguap terlalu cepat", "Warnanya berubah"],
+          "correctAnswer": 1,
+          "explanation": "Pencampuran Stok A (kalsium) dan Stok B (fosfat/sulfat) dalam bentuk pekat akan menghasilkan endapan kalsium yang tidak dapat diserap tanaman."
+        },
+        {
+          "id": 2,
+          "question": "Berapa rentang pH ideal untuk larutan nutrisi hidroponik?",
+          "options": ["3.0-4.5", "5.5-6.5", "7.0-8.0", "8.5-9.5"],
+          "correctAnswer": 1,
+          "explanation": "pH ideal larutan nutrisi hidroponik adalah 5.5-6.5 karena pada rentang ini semua unsur hara dapat diserap optimal oleh akar tanaman."
+        },
+        {
+          "id": 3,
+          "question": "Unsur apa yang terdapat dalam komponen Stok A?",
+          "options": ["Magnesium Sulfat", "Kalsium Nitrat", "Kalium Fosfat", "Asam Borat"],
+          "correctAnswer": 1,
+          "explanation": "Stok A mengandung Kalsium Nitrat (Ca(NO₃)₂), Kalium Nitrat (KNO₃), dan Fe-EDTA (Zat Besi)."
+        },
+        {
+          "id": 4,
+          "question": "Seberapa sering larutan nutrisi sebaiknya diganti?",
+          "options": ["Setiap hari", "Setiap 1-2 minggu", "Setiap bulan", "Tidak perlu diganti"],
+          "correctAnswer": 1,
+          "explanation": "Larutan nutrisi sebaiknya diganti setiap 1-2 minggu untuk menjaga keseimbangan unsur hara dan mencegah akumulasi garam."
+        },
+        {
+          "id": 5,
+          "question": "Apa fungsi pengukuran EC/PPM pada larutan nutrisi?",
+          "options": ["Mengukur suhu", "Mengukur konsentrasi nutrisi", "Mengukur volume air", "Mengukur kadar oksigen"],
+          "correctAnswer": 1,
+          "explanation": "EC (Electrical Conductivity) dan PPM (Parts Per Million) mengukur konsentrasi nutrisi terlarut dalam air untuk memastikan tanaman mendapat nutrisi yang cukup."
+        }
+      ]
+    },
+    {
+      "id": "quiz-003",
+      "katalogId": "mat-008",
+      "title": "Kuis: Pengendalian Hama Terpadu",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Apa kepanjangan dari PHT?",
+          "options": ["Pupuk Hara Terpadu", "Pengendalian Hama Terpadu", "Produksi Hasil Tanaman", "Perawatan Hortikultura Terkini"],
+          "correctAnswer": 1,
+          "explanation": "PHT adalah Pengendalian Hama Terpadu, yaitu pendekatan ekologis yang menggabungkan berbagai metode pengendalian hama."
+        },
+        {
+          "id": 2,
+          "question": "Contoh pengendalian biologis hama adalah...",
+          "options": ["Perangkap kuning", "Rotasi tanaman", "Bakteri Bt", "Semprotan air sabun"],
+          "correctAnswer": 2,
+          "explanation": "Bakteri Bacillus thuringiensis (Bt) adalah agen pengendalian biologis yang efektif membunuh ulat tanpa merusak lingkungan."
+        },
+        {
+          "id": 3,
+          "question": "Bahan alami apa yang bisa digunakan sebagai pestisida nabati?",
+          "options": ["Pupuk urea", "Ekstrak daun nimba", "Kapur pertanian", "Garam dapur"],
+          "correctAnswer": 1,
+          "explanation": "Daun nimba (neem) mengandung azadirachtin yang efektif mengusir dan membunuh berbagai jenis hama tanaman."
+        },
+        {
+          "id": 4,
+          "question": "Apa yang dimaksud dengan pengendalian kultur?",
+          "options": ["Menyemprot pestisida", "Menggunakan perangkap", "Rotasi tanaman dan sanitasi lahan", "Melepas predator alami"],
+          "correctAnswer": 2,
+          "explanation": "Pengendalian kultur meliputi praktik budidaya seperti rotasi tanaman, sanitasi lahan, dan pengaturan waktu tanam untuk mengurangi populasi hama."
+        },
+        {
+          "id": 5,
+          "question": "Sanitasi lahan dapat mencegah berapa persen serangan hama?",
+          "options": ["20%", "40%", "70%", "100%"],
+          "correctAnswer": 2,
+          "explanation": "Sanitasi lahan yang baik dapat mencegah hingga 70% serangan hama karena menghilangkan tempat berkembang biak dan sumber infeksi."
+        }
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "cl-001",
+      "title": "Menanam Selada Hidroponik NFT",
+      "category": "hidroponik",
+      "icon": "Salad",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Persiapan Benih",
+          "description": "Rendam benih selada dalam air hangat selama 4-6 jam. Pilih benih yang tenggelam karena lebih berkualitas.",
+          "tips": "Gunakan benih varietas Grand Rapids atau Butterhead untuk hasil terbaik di iklim tropis."
+        },
+        {
+          "id": 2,
+          "title": "Semai di Rockwool",
+          "description": "Potong rockwool ukuran 2.5x2.5 cm. Rendam dalam air pH 5.5 selama 1 jam. Masukkan 1-2 benih per lubang.",
+          "tips": "Jaga rockwool tetap lembap tapi tidak tergenang. Simpan di tempat teduh selama 2-3 hari pertama."
+        },
+        {
+          "id": 3,
+          "title": "Perawatan Semaian",
+          "description": "Setelah 3-5 hari benih berkecambah. Pindahkan ke tempat yang mendapat cahaya matahari 4-6 jam/hari.",
+          "tips": "Siram dengan air biasa dulu, nutrisi diberikan setelah muncul 2 daun sejati (sekitar hari ke-7)."
+        },
+        {
+          "id": 4,
+          "title": "Persiapan Sistem NFT",
+          "description": "Pastikan talang bersih, pompa berfungsi, dan kemiringan talang 2-3%. Isi bak dengan air bersih.",
+          "tips": "Test aliran air selama 24 jam sebelum memindahkan bibit. Periksa tidak ada kebocoran."
+        },
+        {
+          "id": 5,
+          "title": "Pencampuran Nutrisi AB Mix",
+          "description": "Campur Stok A dan Stok B secara terpisah ke dalam bak. Target PPM: 800-1000. Atur pH ke 5.5-6.5.",
+          "tips": "Selalu masukkan Stok A terlebih dahulu, aduk rata, baru masukkan Stok B. Gunakan EC meter untuk akurasi."
+        },
+        {
+          "id": 6,
+          "title": "Pemindahan Bibit (Transplanting)",
+          "description": "Pindahkan bibit yang sudah memiliki 3-4 daun sejati ke net pot. Letakkan di talang NFT dengan jarak 15 cm.",
+          "tips": "Lakukan transplanting sore hari untuk mengurangi stres tanaman. Umur bibit ideal: 14-21 hari."
+        },
+        {
+          "id": 7,
+          "title": "Perawatan Harian",
+          "description": "Cek level air dan PPM setiap hari. Pastikan pompa berjalan minimal 15 menit per jam. Bersihkan akar yang menutupi aliran.",
+          "tips": "Catat PPM dan pH harian di jurnal untuk tracking. Ganti nutrisi setiap 7-10 hari."
+        },
+        {
+          "id": 8,
+          "title": "Panen",
+          "description": "Selada siap panen 25-35 hari setelah transplanting. Panen pagi hari sebelum jam 8 untuk kesegaran maksimal.",
+          "tips": "Cabut seluruh tanaman beserta akarnya. Bisa juga panen parsial dengan memotong daun luar saja."
+        }
+      ]
+    },
+    {
+      "id": "cl-002",
+      "title": "Membuat Kompos dari Limbah Dapur",
+      "category": "organik",
+      "icon": "Recycle",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Siapkan Wadah Komposter",
+          "description": "Siapkan tong/ember besar bervolume 50-100 liter. Lubangi bagian bawah dan samping untuk sirkulasi udara.",
+          "tips": "Bisa gunakan tong bekas cat atau drum plastik. Warna gelap lebih baik untuk menyerap panas."
+        },
+        {
+          "id": 2,
+          "title": "Kumpulkan Bahan Organik",
+          "description": "Kumpulkan sisa sayuran, kulit buah, ampas teh/kopi, nasi sisa, dan daun kering. Hindari daging, minyak, dan produk susu.",
+          "tips": "Rasio ideal: 3 bagian bahan coklat (daun kering, kardus) dan 1 bagian bahan hijau (sisa sayur/buah)."
+        },
+        {
+          "id": 3,
+          "title": "Layering (Pelapisan)",
+          "description": "Masukkan bahan secara berlapis: tanah-bahan organik-tanah. Setiap lapisan setebal 5-10 cm.",
+          "tips": "Cacah bahan menjadi potongan kecil (2-5 cm) agar proses dekomposisi lebih cepat."
+        },
+        {
+          "id": 4,
+          "title": "Tambahkan Aktivator",
+          "description": "Siramkan larutan EM4 (10 ml per liter air) atau air gula merah (100 gram per liter) sebagai bioaktivator.",
+          "tips": "EM4 paling efektif. Jika tidak tersedia, air fermentasi nasi (leri) juga bisa digunakan."
+        },
+        {
+          "id": 5,
+          "title": "Tutup dan Fermentasi",
+          "description": "Tutup rapat wadah komposter. Biarkan proses fermentasi berjalan selama 2-4 minggu pertama.",
+          "tips": "Suhu dalam komposter akan naik hingga 50-60°C di minggu pertama — ini normal dan menandakan proses berjalan baik."
+        },
+        {
+          "id": 6,
+          "title": "Pengadukan Berkala",
+          "description": "Aduk kompos setiap 3-5 hari sekali. Jika terlalu kering, tambahkan air. Jika terlalu basah, tambahkan bahan kering.",
+          "tips": "Kompos yang baik terasa lembap (seperti spons yang diperas) bukan basah menetes."
+        },
+        {
+          "id": 7,
+          "title": "Panen Kompos",
+          "description": "Kompos matang dalam 4-8 minggu. Ciri: warna hitam kecoklatan, berbau tanah, tekstur remah, dan suhu normal.",
+          "tips": "Ayak kompos sebelum digunakan. Simpan dalam karung di tempat teduh. Bisa bertahan 6 bulan."
+        }
+      ]
+    },
+    {
+      "id": "cl-003",
+      "title": "Budidaya Cabai dalam Polybag",
+      "category": "tanah",
+      "icon": "Flame",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Persiapan Benih Cabai",
+          "description": "Pilih benih cabai varietas unggul. Rendam dalam air hangat (50°C) selama 3 jam untuk mematahkan dormansi.",
+          "tips": "Varietas rawit Domba dan cabai merah Lado F1 cocok untuk pemula. Beli dari toko pertanian terpercaya."
+        },
+        {
+          "id": 2,
+          "title": "Penyemaian",
+          "description": "Semai di tray semai berisi campuran cocopeat dan kompos (1:1). Kedalaman tanam: 0.5 cm. Siram halus.",
+          "tips": "Tutup tray dengan plastik transparan untuk menjaga kelembapan. Buka setiap pagi untuk sirkulasi udara."
+        },
+        {
+          "id": 3,
+          "title": "Persiapan Media Tanam",
+          "description": "Campurkan tanah, kompos, dan arang sekam dengan perbandingan 2:1:1. Masukkan ke polybag 30x40 cm.",
+          "tips": "Tambahkan 1 sendok makan kapur dolomit per polybag, aduk rata, dan diamkan 1 minggu sebelum tanam."
+        },
+        {
+          "id": 4,
+          "title": "Transplanting",
+          "description": "Pindahkan bibit umur 21-28 hari (sudah ada 4-6 daun) ke polybag. Lakukan sore hari, siram setelahnya.",
+          "tips": "Buat lubang tanam lebih besar dari media semai agar akar tidak terluka saat pemindahan."
+        },
+        {
+          "id": 5,
+          "title": "Pemasangan Ajir",
+          "description": "Pasang ajir (tongkat bambu 60-80 cm) saat tanaman tinggi 15-20 cm. Ikat longgar dengan tali rafia.",
+          "tips": "Ajir mencegah tanaman roboh saat berbuah banyak. Pasang 5 cm dari pangkal batang."
+        },
+        {
+          "id": 6,
+          "title": "Pemupukan Susulan",
+          "description": "Berikan pupuk organik cair setiap 7-10 hari. Saat berbunga, tambahkan pupuk tinggi fosfor (P) dan kalium (K).",
+          "tips": "POC dari fermentasi bonggol pisang sangat baik untuk cabai. Aplikasikan pagi atau sore hari."
+        },
+        {
+          "id": 7,
+          "title": "Pengendalian OPT",
+          "description": "Pantau hama kutu daun dan thrips secara rutin. Semprot pestisida nabati (neem oil) setiap 5-7 hari sebagai pencegahan.",
+          "tips": "Tanam kemangi atau marigold di sekitar polybag cabai sebagai tanaman pengusir hama alami."
+        },
+        {
+          "id": 8,
+          "title": "Panen Cabai",
+          "description": "Cabai siap panen 60-90 hari setelah tanam. Petik saat warna merah merata. Gunakan gunting, jangan ditarik.",
+          "tips": "Panen rutin merangsang pembungaan dan pembuahan baru. Satu tanaman bisa panen hingga 20-30 kali."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Aeroponik", "definition": "Sistem hidroponik di mana akar tanaman digantung di udara dan disemprot dengan kabut larutan nutrisi.", "category": "hidroponik", "relatedTerms": ["Hidroponik", "NFT"]},
+    {"term": "AB Mix", "definition": "Larutan nutrisi dua komponen (A dan B) yang mengandung semua unsur hara makro dan mikro untuk tanaman hidroponik.", "category": "hidroponik", "relatedTerms": ["PPM", "EC", "pH"]},
+    {"term": "Azadirachtin", "definition": "Senyawa aktif dari biji nimba (neem) yang berfungsi sebagai insektisida alami.", "category": "hama", "relatedTerms": ["Pestisida Nabati", "PHT"]},
+    {"term": "Bokashi", "definition": "Pupuk organik yang dihasilkan melalui proses fermentasi menggunakan EM4 (Effective Microorganisms).", "category": "organik", "relatedTerms": ["Kompos", "EM4", "Fermentasi"]},
+    {"term": "Cocopeat", "definition": "Media tanam dari serbuk sabut kelapa yang memiliki daya serap air tinggi dan pH netral.", "category": "hidroponik", "relatedTerms": ["Media Tanam", "Rockwool"]},
+    {"term": "DFT", "definition": "Deep Flow Technique — sistem hidroponik di mana akar tanaman terendam dalam larutan nutrisi yang cukup dalam.", "category": "hidroponik", "relatedTerms": ["NFT", "Hidroponik"]},
+    {"term": "EC", "definition": "Electrical Conductivity — ukuran kemampuan larutan menghantarkan listrik; digunakan untuk mengukur konsentrasi nutrisi.", "category": "hidroponik", "relatedTerms": ["PPM", "AB Mix"]},
+    {"term": "EM4", "definition": "Effective Microorganisms 4 — kultur campuran mikroorganisme yang bermanfaat untuk mempercepat dekomposisi bahan organik.", "category": "organik", "relatedTerms": ["Bokashi", "Kompos", "Fermentasi"]},
+    {"term": "Fermentasi", "definition": "Proses penguraian senyawa organik oleh mikroorganisme dalam kondisi anaerob atau semi-anaerob.", "category": "organik", "relatedTerms": ["Bokashi", "EM4", "Kompos"]},
+    {"term": "Fusarium", "definition": "Jenis jamur patogen tanah yang menyebabkan penyakit layu pada berbagai tanaman pertanian.", "category": "hama", "relatedTerms": ["Busuk Akar", "PHT"]},
+    {"term": "Grading", "definition": "Proses pengelompokan hasil panen berdasarkan ukuran, bentuk, warna, dan kualitas.", "category": "pasca-panen", "relatedTerms": ["Sortasi", "Pasca Panen"]},
+    {"term": "Gulma", "definition": "Tumbuhan liar yang tidak dikehendaki yang tumbuh di area pertanaman dan bersaing dengan tanaman utama.", "category": "tanah", "relatedTerms": ["Herbisida", "PHT"]},
+    {"term": "Hidroponik", "definition": "Metode bercocok tanam tanpa menggunakan media tanah, menggunakan air yang mengandung larutan nutrisi mineral.", "category": "hidroponik", "relatedTerms": ["NFT", "DFT", "AB Mix"]},
+    {"term": "Hidroton", "definition": "Media tanam berupa butiran tanah liat yang dipanaskan hingga mengembang; memiliki drainase sangat baik.", "category": "hidroponik", "relatedTerms": ["Media Tanam", "Cocopeat"]},
+    {"term": "Hortikultura", "definition": "Cabang ilmu pertanian yang mempelajari budidaya tanaman buah, sayuran, tanaman hias, dan tanaman obat.", "category": "tanah", "relatedTerms": ["Pertanian", "Budidaya"]},
+    {"term": "Kascing", "definition": "Kotoran cacing tanah (vermikompos) yang sangat kaya nutrisi dan bermanfaat sebagai pupuk organik premium.", "category": "organik", "relatedTerms": ["Vermikompos", "Kompos"]},
+    {"term": "Kompos", "definition": "Pupuk organik hasil penguraian bahan-bahan organik oleh mikroorganisme dalam kondisi terkendali.", "category": "organik", "relatedTerms": ["Bokashi", "EM4", "Pupuk Organik"]},
+    {"term": "Media Tanam", "definition": "Bahan atau material tempat tumbuh dan berkembangnya akar tanaman; bisa berupa tanah, rockwool, cocopeat, dll.", "category": "hidroponik", "relatedTerms": ["Rockwool", "Cocopeat", "Hidroton"]},
+    {"term": "Mulsa", "definition": "Material penutup permukaan tanah yang berfungsi menjaga kelembapan, menekan gulma, dan mengatur suhu tanah.", "category": "tanah", "relatedTerms": ["Gulma", "Konservasi"]},
+    {"term": "Net Pot", "definition": "Wadah berlubang-lubang kecil yang digunakan untuk memegang tanaman dalam sistem hidroponik.", "category": "hidroponik", "relatedTerms": ["Hidroponik", "NFT"]},
+    {"term": "NFT", "definition": "Nutrient Film Technique — sistem hidroponik di mana larutan nutrisi dialirkan sebagai lapisan tipis di dasar talang miring.", "category": "hidroponik", "relatedTerms": ["DFT", "Hidroponik"]},
+    {"term": "Pestisida Nabati", "definition": "Pestisida yang terbuat dari bahan-bahan alami tumbuhan, seperti nimba, serai, atau bawang putih.", "category": "hama", "relatedTerms": ["PHT", "Azadirachtin"]},
+    {"term": "pH", "definition": "Derajat keasaman larutan; skala 0-14 di mana 7 adalah netral. pH ideal nutrisi hidroponik: 5.5-6.5.", "category": "hidroponik", "relatedTerms": ["EC", "PPM", "AB Mix"]},
+    {"term": "PHT", "definition": "Pengendalian Hama Terpadu — pendekatan ekologis yang menggabungkan metode mekanis, biologis, kultur, dan nabati.", "category": "hama", "relatedTerms": ["Pestisida Nabati", "Predator Alami"]},
+    {"term": "Polykultur", "definition": "Sistem pertanian yang menanam beberapa jenis tanaman berbeda dalam satu lahan secara bersamaan.", "category": "tanah", "relatedTerms": ["Tumpangsari", "Rotasi Tanaman"]},
+    {"term": "PPM", "definition": "Parts Per Million — satuan konsentrasi nutrisi terlarut dalam air; 1 PPM = 1 mg per liter.", "category": "hidroponik", "relatedTerms": ["EC", "AB Mix"]},
+    {"term": "Pupuk Organik", "definition": "Pupuk yang berasal dari sisa-sisa makhluk hidup yang telah mengalami dekomposisi secara alami.", "category": "organik", "relatedTerms": ["Kompos", "Bokashi", "Kascing"]},
+    {"term": "Rockwool", "definition": "Media tanam dari serat batu vulkanik yang dilelehkan dan dipintal; sangat baik untuk pembibitan hidroponik.", "category": "hidroponik", "relatedTerms": ["Media Tanam", "Cocopeat"]},
+    {"term": "Rotasi Tanaman", "definition": "Praktik menanam jenis tanaman berbeda secara bergiliran pada lahan yang sama untuk menjaga kesuburan tanah.", "category": "tanah", "relatedTerms": ["Polykultur", "Tumpangsari"]},
+    {"term": "Sortasi", "definition": "Proses pemilahan hasil panen untuk memisahkan produk yang layak jual dari yang rusak atau tidak memenuhi standar.", "category": "pasca-panen", "relatedTerms": ["Grading", "Pasca Panen"]},
+    {"term": "Tumpangsari", "definition": "Pola tanam campuran dengan menanam dua atau lebih jenis tanaman pada lahan dan waktu yang bersamaan.", "category": "tanah", "relatedTerms": ["Polykultur", "Rotasi Tanaman"]},
+    {"term": "Vermikompos", "definition": "Kompos yang dihasilkan dari proses penguraian bahan organik oleh cacing tanah, khususnya cacing merah.", "category": "organik", "relatedTerms": ["Kascing", "Kompos", "Pupuk Organik"]}
+  ],
+  "calculatorPresets": {
+    "abMix": {
+      "crops": [
+        {"name": "Selada", "ppmRange": [560, 840], "phRange": [5.5, 6.5], "ratioA": 5, "ratioB": 5},
+        {"name": "Bayam", "ppmRange": [1260, 1610], "phRange": [6.0, 7.0], "ratioA": 5, "ratioB": 5},
+        {"name": "Kangkung", "ppmRange": [1050, 1400], "phRange": [5.5, 6.5], "ratioA": 5, "ratioB": 5},
+        {"name": "Pakcoy", "ppmRange": [1050, 1400], "phRange": [6.0, 7.0], "ratioA": 5, "ratioB": 5},
+        {"name": "Tomat", "ppmRange": [1400, 3500], "phRange": [5.5, 6.5], "ratioA": 6, "ratioB": 4},
+        {"name": "Cabai", "ppmRange": [1260, 1540], "phRange": [5.5, 6.5], "ratioA": 6, "ratioB": 4},
+        {"name": "Mentimun", "ppmRange": [1190, 1750], "phRange": [5.5, 6.0], "ratioA": 5, "ratioB": 5},
+        {"name": "Melon", "ppmRange": [1400, 1820], "phRange": [5.5, 6.0], "ratioA": 6, "ratioB": 4},
+        {"name": "Stroberi", "ppmRange": [1260, 1540], "phRange": [5.5, 6.5], "ratioA": 5, "ratioB": 5},
+        {"name": "Basil", "ppmRange": [700, 1120], "phRange": [5.5, 6.5], "ratioA": 5, "ratioB": 5}
+      ]
+    },
+    "spacing": {
+      "crops": [
+        {"name": "Padi", "rowSpacing": 25, "plantSpacing": 25, "plantsPerHectar": 160000},
+        {"name": "Jagung", "rowSpacing": 75, "plantSpacing": 25, "plantsPerHectar": 53333},
+        {"name": "Cabai", "rowSpacing": 60, "plantSpacing": 50, "plantsPerHectar": 33333},
+        {"name": "Tomat", "rowSpacing": 60, "plantSpacing": 50, "plantsPerHectar": 33333},
+        {"name": "Kacang Tanah", "rowSpacing": 40, "plantSpacing": 20, "plantsPerHectar": 125000},
+        {"name": "Kedelai", "rowSpacing": 40, "plantSpacing": 15, "plantsPerHectar": 166667},
+        {"name": "Bawang Merah", "rowSpacing": 20, "plantSpacing": 15, "plantsPerHectar": 333333},
+        {"name": "Kangkung", "rowSpacing": 20, "plantSpacing": 10, "plantsPerHectar": 500000},
+        {"name": "Selada", "rowSpacing": 30, "plantSpacing": 25, "plantsPerHectar": 133333},
+        {"name": "Sawi/Pakcoy", "rowSpacing": 30, "plantSpacing": 20, "plantsPerHectar": 166667}
+      ]
+    }
+  }
+}
